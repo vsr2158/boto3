@@ -1,0 +1,15 @@
+Region,ImageId,AMIDescription,InstanceId,InstanceType
+eu-central-1,ami-c7ee5ca8,Amazon Linux AMI 2017.09.0.20170930 x86_64 HVM GP2,i-05f77b7bd3b7d71e0,t2.micro
+us-east-1,ami-0f875edc1cfe5eb8a,Cloud9 Cloud9Default AMI,i-0e54a92c9f1db4bd9,t2.micro
+us-east-1,ami-0e2ff28bfb72a4e45,Amazon Linux AMI 2018.03.0.20200206.0 x86_64 HVM gp2,i-07b4fc2c4cb758e26,t2.micro
+us-east-1,ami-09d95fab7fff3776c,Amazon Linux 2 AMI 2.0.20200520.1 x86_64 HVM gp2,i-0e08ea0b4bd623a95,t2.micro
+us-east-2,ami-0587447b4aab53748,"EKS Kubernetes Worker AMI with AmazonLinux2 image, (k8s: 1.15.11, docker:18.09.9ce-2.amzn2)",i-0470bd125f0720523,t3.medium
+us-east-2,ami-026dea5602e368e96,Amazon Linux 2 AMI 2.0.20200520.1 x86_64 HVM gp2,i-06a863eb2d4efe753,t2.nano
+us-east-2,ami-0bb0547c7da102ee8,"EKS Kubernetes Worker AMI with AmazonLinux2 image, (k8s: 1.15.11, docker:19.03.6ce-4.amzn2)",i-059c0f7d1a59f6b93,t3.medium
+us-east-2,ami-02b425c1d5b71cfb5,"EKS Kubernetes Worker AMI with AmazonLinux2 image, (k8s: 1.14.9, docker:19.03.6ce-4.amzn2)",i-0070c4a9bc38618e2,t3.micro
+us-east-2,ami-0bb0547c7da102ee8,"EKS Kubernetes Worker AMI with AmazonLinux2 image, (k8s: 1.15.11, docker:19.03.6ce-4.amzn2)",i-0dc1415d1956d4ffb,t3.medium
+us-east-2,ami-0a41a83c8c50bd738,[Copied ami-00fb4790407ed21ca from us-east-1] splunk_AMI_8.0.2.1_2020-03-17_17-14-29,i-039b4fe351d42bb44,c5.large
+us-east-2,ami-0998bf58313ab53da,Amazon Linux AMI 2018.03.0.20200206.0 x86_64 HVM gp2,i-0b7f02008f19ca8dd,t2.micro
+us-west-1,ami-06fcc1f0bc2c8943f,Amazon Linux 2 AMI 2.0.20200406.0 x86_64 HVM gp2,i-099bad07c803f92b0,t2.micro
+us-west-2,ami-028d954c9b5b50c0b,Cloud9 Cloud9Default AMI,i-016a3f88c3862ba74,t2.micro
+us-west-2,ami-0e34e7b9ca0ace12d,Amazon Linux 2 AMI 2.0.20200520.1 x86_64 HVM gp2,i-06eb84ae833399d3d,t2.nano
