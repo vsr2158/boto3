@@ -1,9 +1,19 @@
 import logging
 import boto3
 from botocore.exceptions import ClientError
+'''
+This script will take a single file from your filesystem and upload to the specified S3 bucket
+During each upload the filename is appended with a number making the objects unique
+change the next three variables to match your environment
+bucket = "-s3get-ebsput"
+file_name = "file"
+max_objects = 10
+'''
 
-bucket = "137965528627-s3get-ebsput"
-file_name = "/Users/raovi/Downloads/rpm"
+bucket = "-s3get-ebsput"
+file_name = "file"
+max_objects = 15000
+
 i = 0
 def upload_file(file_name, bucket, object_name):
     # If S3 object_name was not specified, use file_name
@@ -17,7 +27,7 @@ def upload_file(file_name, bucket, object_name):
         logging.error(e)
         return False
     return True
-while i < 10:
+while i < max_objects:
     print ("Starting upload: " + str(i))
     i += 1
     object_name = "file" + str(i)
