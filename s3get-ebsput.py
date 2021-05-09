@@ -18,11 +18,11 @@ def s3_get (file_name, bucket, object_name):
     except FileNotFoundError:
         print("The file was not found")
         return False
-
 try:
-    for i in range (25):
-        threading.Thread(target=s3_get(file_name,bucket,object_name))
-
+    for i in range (100000):
+        for i in range (500):
+            thr = threading.Thread(target=s3_get, args=(file_name,bucket,object_name))
+            thr.start()
 except:
    print ("Error: unable to start thread")
 
