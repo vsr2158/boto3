@@ -3,7 +3,7 @@ import random
 import threading
 import time
 
-bucket = "137965528627-s3get-ebsput"
+bucket = "s3get-ebsput"
 object_name = 'file'
 file_name = object_name
 
