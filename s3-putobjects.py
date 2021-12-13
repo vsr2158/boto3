@@ -10,9 +10,9 @@ file_name = "file"
 max_objects = 10
 '''
 
-bucket = "-s3get-ebsput"
-file_name = "file"
-max_objects = 15000
+bucket = "<BucketName>"
+file_name = "s3-putobjects.py"
+max_objects = 20000
 
 i = 0
 def upload_file(file_name, bucket, object_name):
@@ -30,7 +30,7 @@ def upload_file(file_name, bucket, object_name):
 while i < max_objects:
     print ("Starting upload: " + str(i))
     i += 1
-    object_name = "file" + str(i)
+    object_name = "replication-" + str(i)
     upload_file(file_name,bucket,object_name)
 
 
