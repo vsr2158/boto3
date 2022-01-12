@@ -2,7 +2,7 @@ import json
 import csv
 import boto3
 import datetime as datetime
-bucket_name = "137965528627-ec2-rightsizing"
+bucket_name = "-ec2-rightsizing"
 
 def s3_load (filename,key):
     s3 = boto3.client('s3')
